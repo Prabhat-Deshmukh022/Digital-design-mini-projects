@@ -1,9 +1,4 @@
 /*
-
-NAME - PRABHAT DESHMUKH
-SRN - PES1UG22CS419
-SECTION - G
-
 PROBLEM STATEMENT-
 
 while(i<21){
@@ -36,8 +31,6 @@ module ram_128_16 (input wire clk, reset, wr, input wire [6:0] addr, input wire 
     ram[13]=16'b01xxxxxx00000100; // jbc ram[10]
     //ram[14] = 16'b0000010000110011; // move r0, r3 (and r0, r3, r3)
 
-    /*ram[10] = 16'b10xxxxx101xxxxxx // load 1 to r5
-    ram[11] = 4'b0001 // 1 */
 
   end
   always @(wr) ram[addr]=din;
